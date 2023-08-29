@@ -1,0 +1,6 @@
+python -m pip install flask 
+python -m pip install flask-sqlalchemy
+python -m pip install flask-migrate
+python -m pip install flask-mysqldb
+flask db migrate
+flask db upgrade
